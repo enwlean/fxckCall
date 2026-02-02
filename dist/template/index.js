@@ -1,0 +1,1 @@
+(function(){"use strict";(function(i,o){const n=i.findByProps("getIdleSince","isIdle");let t,e;var c={onLoad:function(){n&&(t=o.instead("getIdleSince",n,function(){return 0}),e=o.instead("isIdle",n,function(){return!1}))},onUnload:function(){t&&t(),e&&e()}};return c})(vendetta.metro,vendetta.patcher)})();
